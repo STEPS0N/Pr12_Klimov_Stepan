@@ -15,7 +15,7 @@
             </Grid.ColumnDefinitions>
             <Label Content="#Поиск по наименованию:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
             <Label Content="#Сортировка" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-            <TextBox x:Name="cbSearch" KeyUp="Search_Book" Height="23"
+            <TextBox x:Name="tbSearch" KeyUp="Search_Book" Height="23"
              Margin="10,36,9.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
             <ComboBox x:Name="cbAuthors" Margin="10,90,9.8,0" VerticalAlignment="Top" SelectionChanged="SelectAuthor"/>
             <ComboBox x:Name="cbGenres" Margin="10.2,90,9.6,0" VerticalAlignment="Top" Grid.Column="1" SelectionChanged="SelectAuthor"/>
